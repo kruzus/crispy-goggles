@@ -5,12 +5,12 @@ import "./App.scss"
 import Layout from "./components/Layout/"
 
 const App = () => {
-	return (
-		<>
-			<Layout />
-			HEY
-		</>
-	)
+ return (
+  <>
+   <Layout />
+   HEY
+  </>
+ )
 }
 
 export default App

@@ -1,3 +1,3 @@
-# React time
+# React
 
-Learning this thing i guess
+personal website, setting up more stuff to do.

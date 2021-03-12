@@ -1,6 +1,0 @@
-# Ignoring 
-
-./src/setupTests.ts
-./src/reportWebVitals.ts
-./src/react-app-env.d.ts
-./src/App.test.tsx
