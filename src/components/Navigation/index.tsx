@@ -1,3 +1,5 @@
+// eslint-disable-next-line
+
 import "./style.scss"
 
 import {
@@ -18,42 +20,13 @@ import {NoMatch} from "../NoMatch"
 const Navbar = () => {
 return(
  <>
-
- 
-
-  
-    <nav className="navheader">
+ <nav className="navheader">
       <h3 className="logotext">Logo</h3>
       <ul className="navigation">
-        
-
-
-       <Router>
-        <li>Home</li>
+       <li>Home</li>
         <li>About</li>
         <li>Projects</li>
         <li>Contact</li>
-        
-        <Switch>
-        <Route exact path="/">
-            <Home />
-        </Route>
-        <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/projects">
-            <Projects />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-
-          <Route path="*">
-            <NoMatch />
-          </Route>
-
-        </Switch>
-        </Router>
       </ul>
     </nav>
     

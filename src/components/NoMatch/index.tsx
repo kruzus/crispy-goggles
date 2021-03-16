@@ -5,7 +5,8 @@ export const NoMatch = () => {
 
     return(
         <div>
-            No match for <code>{location.pathname}. Please go back.</code>
+            <h1>Error</h1>
+            <p>Sorry the page {location.pathname} not found.</p>
         </div>
     )
 }
