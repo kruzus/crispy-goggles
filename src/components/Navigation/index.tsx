@@ -1,36 +1,30 @@
-// eslint-disable-next-line
+import { Link } from "react-router-dom"
+import styled from "styled-components"
 
-import "./style.scss"
+const NavStyler = styled.nav`
+list-style-type: none;
 
-import {
-  BrowserRouter as Router,
-  Route,
-  Link,
-  Switch,
-  Redirect,
-  useLocation
-} from "react-router-dom";
+display: flex;
+justify-content: space-around;
+align-items: center;
+min-height: 10vh;
 
-import {About} from "../About/"
-import {Contact} from "../Contact"
-import {Home} from "../Home"
-import {Projects} from "../Projects"
-import {NoMatch} from "../NoMatch"
+border: 1px solid black;
+text-decoration: none;
+flex: 1;
+`
 
 const Navbar = () => {
 return(
  <>
- <nav className="navheader">
-      <h3 className="logotext">Logo</h3>
-      <ul className="navigation">
-       <li>Home</li>
-        <li>About</li>
-        <li>Projects</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
-    
-    </>
+ <NavStyler>
+ <h3>Logo</h3>
+ <Link to="/"><li>Home</li></Link>
+ <Link to="/projects"><li>Projects</li></Link>
+ <Link to="/about"><li>About</li></Link>
+ <Link to="/contact"><li>Contact</li></Link>
+ </NavStyler>
+ </>
 );
 }
 
