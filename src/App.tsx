@@ -1,14 +1,11 @@
-import React from "react"
-
 import "./App.scss"
+import Navbar from "./components/Navigation"
 
-import Layout from "./components/Layout/"
 
 const App = () => {
  return (
   <>
-   <Layout />
-   HEY
+   <Navbar />
   </>
  )
 }

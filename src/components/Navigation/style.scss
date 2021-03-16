@@ -1,0 +1,17 @@
+.navheader {
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-evenly;
+}
+
+.logotext,li {
+    font-size: 1.5em;
+}
+
+.navigation { 
+    display: flex;
+}
+.navigation > li {
+    list-style-type: none;
+    margin-left: 1em;
+}

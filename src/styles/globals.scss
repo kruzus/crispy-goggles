@@ -1,0 +1,15 @@
+/*
+FONTS
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Roboto&display=swap');
+$header-roboto: 'Roboto', sans-serif;
+$global-font: 'Open Sans', sans-serif;
+
+
+* {
+    margin: 0; padding: 0;
+    font-family: $global-font;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
