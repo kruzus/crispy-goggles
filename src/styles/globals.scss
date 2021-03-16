@@ -5,12 +5,11 @@ FONTS
 $header-roboto: 'Roboto', sans-serif;
 $global-font: 'Open Sans', sans-serif;
 
-
 * {
-    margin: 0; padding: 0;
-    font-family: $global-font;
-    font-size: 1.1rem;
-    box-sizing: border-box;
-    text-decoration:none; // Global or no? Change later.    
+ margin: 0;
+ padding: 0;
+ font-family: $global-font;
+ font-size: 1.1rem;
+ box-sizing: border-box;
+ text-decoration: none; // Global or no? Change later.
 }
-

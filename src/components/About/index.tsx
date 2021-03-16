@@ -1,8 +1,10 @@
 export const About = () => {
-    return(
-        <div>
-            <h1>About</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, culpa?</p>
-        </div>
-    )
+ return (
+  <div>
+   <h1>About</h1>
+   <p>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus, culpa?
+   </p>
+  </div>
+ )
 }

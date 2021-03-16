@@ -6,3 +6,7 @@ tsconfig.json
 yarn.lock
 
 README.md
+
+*.d.ts
+
+src\styles\globals.scss
